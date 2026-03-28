@@ -13,7 +13,7 @@ import CookieConsent from './components/CookieConsent';
 import ServicesDetailPage from './components/ServicesDetailPage';
 import ParticleBackground from './components/ParticleBackground';
 
-export default function App() {
+export default function App() {h
   const [isAtTop, setIsAtTop] = useState(true);
   const [showReviews, setShowReviews] = useState(false);
   const [showServicesDetail, setShowServicesDetail] = useState(false);
@@ -41,7 +41,7 @@ export default function App() {
         body: JSON.stringify({
           ...formData,
           _subject: "Nuovo messaggio dal sito Aurelia Studio",
-          _captcha: "false"
+          _captcha: "false",            _replyto: formData.email,
         }),
       });
 
