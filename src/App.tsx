@@ -13,7 +13,7 @@ import CookieConsent from './components/CookieConsent';
 import ServicesDetailPage from './components/ServicesDetailPage';
 import ParticleBackground from './components/ParticleBackground';
 
-export default function App() {h
+export default function App() {
   const [isAtTop, setIsAtTop] = useState(true);
   const [showReviews, setShowReviews] = useState(false);
   const [showServicesDetail, setShowServicesDetail] = useState(false);
